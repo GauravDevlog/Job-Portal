@@ -1,0 +1,212 @@
+/* General */
+.companies-hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(135deg, #e0ebff, #ffffff);
+  color: #1f2937;
+}
+.companies-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.companies-hero p {
+  color: #4b5563;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.companies-hero input {
+  width: 60%;
+  padding: 12px 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 50px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+.companies-hero input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.4);
+}
+
+/* Filters */
+.company-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+.company-filters select {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.company-filters select:hover {
+  border-color: #2563eb;
+}
+
+/* Featured Slider */
+.featured-slider {
+  margin: 50px auto;
+  text-align: center;
+}
+.featured-slider h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.featured-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 20px;
+  scrollbar-width: none;
+}
+.featured-scroll::-webkit-scrollbar {
+  display: none;
+}
+.featured-card {
+  min-width: 180px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.featured-card:hover {
+  transform: scale(1.05);
+}
+.featured-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Companies Grid */
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 50px 80px;
+}
+.company-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.1);
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.company-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+.company-card .meta {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+.company-card .desc {
+  color: #4b5563;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.company-card button {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.company-card button:hover {
+  background: linear-gradient(90deg, #1d4ed8, #2563eb);
+}
+
+/* Spotlight Section */
+.company-spotlight {
+  margin: 60px auto;
+  background-color: #f9fafb;
+  padding: 50px 80px;
+}
+.spotlight-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.spotlight-card img {
+  width: 400px;
+  border-radius: 16px;
+}
+.spotlight-text {
+  max-width: 500px;
+}
+.spotlight-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.spotlight-text p {
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+.spotlight-text button {
+  background: #2563eb;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.spotlight-text button:hover {
+  background: #1e40af;
+}
+
+/* CTA Section */
+.join-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+}
+.join-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.join-section p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.join-section button {
+  padding: 14px 30px;
+  border: none;
+  background: white;
+  color: #2563eb;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.join-section button:hover {
+  background: #f1f5f9;
+}
